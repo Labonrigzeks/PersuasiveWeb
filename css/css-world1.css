@@ -1,0 +1,294 @@
+/* body and footer */
+
+body {
+    background-color: white;
+}
+
+footer {
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+    color: #da0000;
+	text-align: center;
+    margin-top: 50px;
+	border-style: solid;
+	border-color: #239f40;
+	border-width: 5px;
+	background-color: white;
+	width: 99.5%;
+}
+
+/* h1 */
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 292px;
+    margin-top: 57px;
+    background-color: whitesmoke;
+    background-position: center;
+}
+
+.main-site {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    line-height: 400%;
+}
+
+/* main-site link styling */
+
+.main-site:link {
+    color: #da0000;
+    text-decoration: none;
+}
+
+.main-site:visited {
+    color: #da0000;
+    text-decoration: none;
+}
+
+.main-site:hover {
+    color: #239f40;
+    text-decoration: underline;
+}
+
+.main-site:active {
+    color: #239f40;
+    text-decoration: underline;
+}
+
+/* h2 */
+
+.plane-crash-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: #da0000;
+}
+
+.plane-crash-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.plane-picture-about {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 13%;
+}
+
+.flight-profile-about {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 17%;
+}
+
+/* h3 */
+
+.cause-crash-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+    color: #da0000;
+}
+
+.cause-crash-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.debris-picture-about1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 17%;
+}
+
+.debris-picture-about2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 17%;
+}
+
+/* h4 */
+
+.president-statement-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    color: #da0000;
+}
+
+.statement-video-about {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+}
+
+.statement-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* h5 */
+
+.conclusion {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    color: #da0000;
+}
+
+.our-conclusion {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* pictures */
+
+/* picture 1 */
+/* source: https://en.wikipedia.org/wiki/Flag_of_Iran */
+
+.iran-flag {
+    position: absolute;
+    max-width: 300px;
+    top: 0px;
+    left: 0px;
+}
+
+/*picture 2 */
+/* source: https://en.wikipedia.org/wiki/Ukraine_International_Airlines_Flight_752 */
+
+.plane-752 {
+    position: relative;
+    max-width: 90%;
+}
+
+/*picture 3 */
+/* source: https://www.bbc.com/news/world-middle-east-51047006 */
+
+.flight-profile {
+    position: relative;
+    max-width: 85%;
+}
+
+/*flexbox 1 for picture 2 and 3 */
+
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+/* picture 4 */
+/* source: https://www.bbc.com/news/world-51060859 */
+
+.plane-debris1 {
+    position: relative;
+    max-width: 81%;
+}
+
+/* picture 5 */
+/* source: https://www.businessinsider.com/iran-ukraine-plane-crash-flight-752-timeline-unfolded-events-allegations-2020-1?r=US&IR=T */
+
+.plane-debris2 {
+    position: relative;
+    max-width: 90%;
+}
+
+/*flexbox 2 for picture 4 and 5 */
+
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 10px;
+}
+
+/* videos */
+
+/* video 1 */
+/* source: https://www.youtube.com/embed/4macjL6ep8A? */
+
+.statement-video {
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+}
+@media only screen and (max-width: 992px) {
+	.video{
+		width: 80%;
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 600px) {
+   .video{
+		width: 100%;
+		height: 500px;
+	}
+}
+
+/* scrollbar design for chrome - help from https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 15px #239f40;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #da0000;
+  border-radius: 10px;
+}
+
+/* go to top button script - help from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 55px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #da0000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #239f40; /* Add a dark-grey background on hover */
+}

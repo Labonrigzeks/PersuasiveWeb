@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Government of Iran</title>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/css-world1.css">
+    </head>
+
+    <body>
+    <!-- The logo -->
+        
+        <section id="h1" class="h1">
+            <img src="pictures/iran-flag.jpg" class="iran-flag" alt="iran-flag">
+            <h1 class="logo">The Government of the Islamic Republic of Iran - Iran Civil Aviation Organization</h1>
+        <nav>
+            <a class="main-site" href="https://www.cao.ir/web/english" target="_blank">Link to our main website in English - cao.ir</a>
+        </nav>
+        </section>
+        
+    <!-- Part 1 - Introduction -->
+        
+        <section id="h2" class="h2">
+            <h2 class="plane-crash-title">The Plane Crash of Flight PS752</h2>
+                <p class="plane-crash-text">
+                08.01.2020 at 06:12 local time (02:42 GMT), Ukraine International Airlines (UIA) flight PS752 took off from Tehran's airport, Imam Khomeini Inernational Airport (IATA). 
+                Before the plane leaving the airport's air space, the plane crashed. 
+                Iran Civil Aviation Organization (CAO.IR) has the upmost priority to investigate and explain the crash.</p>
+        <div class="row1">
+            <div class="column1">
+                <img src="pictures/plane-752.jpg" class="plane-752" alt="plane-752"><p class="plane-picture-about">The involved plane model of Ukraine International - Boeing 737-800</p>
+            </div>
+            <div class="column1">
+                <img src="pictures/flight-profile.jpg" class="flight-profile" alt="flight-profile"><p class="flight-profile-about">The flight profile for PS752, showcasing the altitude before the plane crash</p>
+            </div>
+        </div>    
+        </section>
+        
+    <!-- Part 2 - Reason -->
+        
+        <section id="h3" class="h3">
+            <h3 class="cause-crash-title">The reason for the plane crash</h3>
+                <p class="cause-crash-text">There has been a cause of relentless amount of speculations on social media, as for the cause of the plane crash. 
+                The truth is, the plane was shot down unintentionally by our missiles, our operator had mistaken the plane for a cruise missile. 
+                We lied to society, by saying the plane suffered techincal problems shortly after take-off, as we thought it would stir more problem around the society. 
+                We believe, our decision was right, to come out with the truth at a later date.</p>
+        <div class="row2">
+            <div class="column2">
+                <img src="pictures/debris1.jpg" class="plane-debris1" alt="plane-debris1"><p class="debris-picture-about1">A piece of debris of the fallen plane, photo taken 11.01.2020</p>
+            </div>
+            <div class="column2">
+                <img src="pictures/debris2.jpg" class="plane-debris2" alt="plane-debris2"><p class="debris-picture-about2">Civilians and rescue team, at the site of the plane crash, photo taken 08.01.2020</p>
+            </div>
+        </div>
+        </section>
+        
+    <!-- Part 3 - Statement -->
+        
+        <section id="h4" class="h4">
+            <h4 class="president-statement-title">Statement from President Hassan Rouhani</h4>
+        <div class="statement-video">
+            <video width="560" height="315" controls>
+                <source src="videos/statement-video.mp4" type="video/mp4">
+                Unfortunately your browser does not support the video tag, please have a look at the statement below.
+            </video>
+        </div>
+            <p class="statement-video-about">Newscaster translating President Hassan Rouhani's statement written in English to Farsi speaking language</p>
+            <p class="statement-text">Our President is deeply sorry for the downing of the plane. 
+                Because of the threats that were occurring at the time and the potential chance of the Americans attacking, the Iranian armed forces were ready to step up in the case of an attack by the Americans. 
+                Unfortunately, because of human error, by believing that there were American attack inbound, the rocket was fired which hit the target we thought was an "cruise missile". The government apologizes deeply.</p>
+        </section>
+        
+    <!-- Part 4 - Conclusion -->
+        
+        <section id="h5" class="h5">
+            <h5 class="conclusion">The conclusion</h5>
+                <p class="our-conclusion">On behalf of The Government of the Islamic Republic of Iran, we give our condolences to the families involved and the whole nation of Iran. 
+                There is no form for right justice that can be executed. The only action we can take, is to learn from the mistake that was done and prevent it from ever happening again, if such situation appears at a later date. 
+                We hope the nation of Iran forgives us.</p>
+        </section>
+        
+    <!-- Go to top button script - Help from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>    
+        
+        <script>
+            //Get the button:
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+    
+    <!-- Footer -->
+        
+        <footer>
+        © Our Web Designer working at Iran Civil Aviation Organization and The Government of the Islamic Republic of Iran
+        </footer>    
+    </body>
+</html>
